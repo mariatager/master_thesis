@@ -3,6 +3,7 @@ FROM python:3.8.5-slim
 
 # Set the working directory in the container
 WORKDIR /app
+COPY . /app
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
@@ -16,7 +17,8 @@ RUN pip install --upgrade pip \
     && pip install spacy==3.4.4 \
     && pip install jupyter \
     && pip install networkx matplotlib \
-    && pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_core_sci_sm-0.5.1.tar.gz
+    && pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_core_sci_sm-0.5.1.tar.gz \
+    && pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_core_sci_md-0.5.1.tar.gz
 
 
 # Expose Jupyter notebook port
