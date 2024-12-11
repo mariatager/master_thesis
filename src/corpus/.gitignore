@@ -1,0 +1,14 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python bytecode and cache directories
+__pycache__/
+*.pyc
+
+# Ignore other compiled Python artifacts
+*.pyo
+*.pyd
+
+# Optional: Ignore virtual environments
+venv/
+env/
