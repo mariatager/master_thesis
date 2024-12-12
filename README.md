@@ -5,30 +5,34 @@ This project implements an automated pipeline to extract and build a taxonomy of
 
 While the core of the method relies purely on symbolic processing (LSPs), prompting to a large language model (LLM) is used in a minimal capacity for post-processing. This step ensures the taxonomy is refined, normalized, and consistent, avoiding the need for manual intervention in reorganizing the extracted relationships.
 
----
 
 ## **File Structure**
-THESIS/ 
-├── data/ # Raw and processed data │ 
-   ├── cancer_corpus.txt # Raw extracted Wikipedia corpus │
-   ├── formatted_cancer_corpus.txt # Processed and formatted corpus 
-├── evaluation/ # Files for evaluation │ 
-   ├── inferred.owl # Inferred ontology │ 
-   ├── tumor_types.owl # Tumor types ontology 
-├── notebooks/ # Jupyter notebooks │
-   ├── symbolic_method.ipynb # Notebook to run the pipeline 
-├── results/ # Results of the pipeline │ 
-   ├── symbolic_taxonomy.rdf # Final exported taxonomy in RDF 
-├── src/ # Source code │ 
-   ├── corpus/ # Corpus-related functions │ │ 
-      ├── extract_wiki_corpus.py # Functions for corpus extraction │ 
-      ├── format_text.py # Functions to format text │ 
-   ├── extraction/ # Extraction-related functions │ │ 
-      ├── extract.py # Extract hyponym-hypernym pairs │ │ 
-      ├── filter.py # Filter and refine extracted relationships │ │ 
-      ├── postprocess.py # Post-process relationships │ │ └── init.py # Module initialization │ ├── taxonomy/ # Taxonomy-related functions │ │ ├── build.py # Build the taxonomy graph │ │ ├── visualize.py # Visualize the taxonomy │ │ ├── export.py # Export taxonomy to RDF │ │ └── init.py # Module initialization │ └── pycache/ # Python cache files ├── Dockerfile # Docker configuration └── README.md # Project documentation
+.
+├── THESIS
+│   ├── data
+│   │   ├── cancer_corpus.txt # Raw extracted Wikipedia corpus
+│   │   └── formatted_cancer_corpus.txt # Processed and formatted corpus
+│   ├── evaluation
+│   │   └── tumor_types.owl # Benchmark ontology from NCIt
+│   ├── notebooks
+│   │   └── symbolic_method.ipynb # Notebook to run the pipeline
+│   ├── results
+│   │   └── symbolic_taxonomy.rdf # Final exported taxonomy in RDF
+│   ├── src
+│   │   ├── corpus
+│   │   │   ├── extract_wiki_corpus.py # Functions for corpus extraction
+│   │   │   └── format_text.py # Functions to format text
+│   │   ├── extraction
+│   │   │   ├── extract.py # Extract hyponym-hypernym pairs
+│   │   │   ├── filter.py # Filter and refine extracted relationships
+│   │   │   └── postprocess.py # Post-process relationships
+│   │   ├── taxonomy
+│   │   │   ├── build.py # Build the taxonomy graph
+│   │   │   ├── visualize.py # Visualize the taxonomy
+│   │   │   └── export.py # Export taxonomy to RDF
+│   ├── Dockerfile # Docker configuration
+│   └── README.md # Project documentation
 
----
 
 ## **Pipeline Overview**
 
