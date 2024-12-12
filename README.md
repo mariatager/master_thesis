@@ -87,19 +87,17 @@ The following LSPs are used to extract hyponym-hypernym relationships:
 
 ---
 
-## **How to Use**
-
-1. **Install Dependencies**:
-   Install the required Python libraries:
-   ```bash
-   pip install -r requirements.txt
 
 
 ## **How to Use**
-1. **Run the Pipeline:**
-Open the notebooks/main.ipynb notebook and execute the steps sequentially.
+1. **Requirements**
+I recommended to use Google Colab to run this pipeline, as it provides an isolated and compatible environment for all dependencies, simplifying setup and installation. Some libraries, like scispaCy, require Python version 3.8.5 or older, which might not be compatible with certain operating systems.
+I will soon provide a Dockerfile to run a docker container and work locally.
 
-2. **Outputs:**
+2. **Run the Pipeline:**
+Open the notebooks/main.ipynb notebook and execute the steps sequentially. 
+
+3. **Outputs:**
 - Raw corpus: data/cancer_corpus.txt
 - Formatted corpus: data/formatted_corpus.txt
 - Final taxonomy: data/taxonomy.rdf
