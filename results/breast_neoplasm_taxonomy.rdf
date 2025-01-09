@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:taxo="http://example.org/taxonomy#"
+>
+  <rdf:Description rdf:about="http://example.org/taxonomy#acute_lymphoblastic_leukemia">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_cancers"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#subsequent_cancer_risks"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#leukemia"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>transitive</taxo:relation>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#tls-high_cases">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cases"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#brca12_germline">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#germline"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#breast_cancer_surgery_complications">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#cancer_resistance">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#resistance"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#her2-positive_breast_cancers">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancers"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#glioblastoma_multiforme">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_cancer_types"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>including</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#tall_cell_carcinoma">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#subtypes"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#skin_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#human_epidermal_growth_factor_receptor">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#epidermal_growth_factor_receptor"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#lung_metastasis">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#metastasis"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#bovine_leukemia">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_cancers"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#subsequent_cancer_risks"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#leukemia"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>transitive</taxo:relation>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#colorectum">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#colorectal_cancers"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#rectal_cancers"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+    <taxo:relation>transitive</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#mucinous_carcinoma">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#hr-positiveher2-negative_patients">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#early_breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>transitive</taxo:relation>
+    <taxo:relation>including</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#cutaneous_melanoma">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#melanoma"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#brca12_mutations">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#mutations"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#prostate_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#prealbumin">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#albumin"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#surgical_site_infection">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer_surgery_complications"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#prostate_adenocarcinoma">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#adenocarcinoma"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#metastatic_castration-resistant_pc">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#prostate_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>transitive</taxo:relation>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#formula_milk">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#milk"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#neuroendocrine_neoplasms">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#tumor_categories"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#categories"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>including</taxo:relation>
+    <taxo:relation>transitive</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#variants">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#bone_metastatic_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#metastatic_breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#early_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#her2-positive">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#positive"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#her2-positive_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#breast_cancers">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#escc_metastasis">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#metastasis"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#neoadjuvant_chemotherapy">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#chemotherapy"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#chronic_myeloid_leukemia">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_cancers"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#subsequent_cancer_risks"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#leukemia"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>transitive</taxo:relation>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#cervical_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#different_receptor_subtypes">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#young_adult">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#adult"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#her2-negative_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#breast_cancer_subtypes">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#ovarian_tumors">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#tumors"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#lateral_lymph_node_metastasis">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#lymph_node_metastasis"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#categories">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#hr-positive">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#positive"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#lung_adenocarcinoma__">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_cancers"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_cancer_types"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>including</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#esophageal_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#cytotoxic_effects">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#effects"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#breast__">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#colorectal_cancers"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#rectal_cancers"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+    <taxo:relation>transitive</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#sporadic_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#quality">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#outcomes"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>including</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#endometrial_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#hormone_receptor-positive">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#luminal">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer_molecular_subtypes"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>like</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#invasive_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#ovarian_malignancy">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#malignancy"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#non-small_cell_lung_cancer__">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#lung_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#gastric_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#solid_tumors">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#tumors"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#gas5__">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#tumor-suppressor_ncrnas"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#tumor_infiltration">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#infiltration"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#pancreas">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#colorectal_cancers"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#rectal_cancers"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+    <taxo:relation>transitive</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#triple-negative_bc__">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_subtypes"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#esophageal_carcinoma">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_cancer_types"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>including</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#treatment_strategies">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#strategies"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#metastasis">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#triple-negative_breast_cancer__">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_cancer_types"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#different_subgroups"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>including</taxo:relation>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#tumor">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#receptor-positive">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#positive"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#poorer_prognosis">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#prognosis"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#esophageal_squamous_cell_carcinoma">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#histological_subtypes"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#squamous_cell_carcinoma"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>transitive</taxo:relation>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#lung_cancer">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#soft_tissue_cancers">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancers"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#er-positive">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_subtypes"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#positive"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#adenocarcinomas__">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#tumor_categories"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#categories"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>including</taxo:relation>
+    <taxo:relation>transitive</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#hormone_receptor-positive_">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#different_receptor_subtypes"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#her2-directed_treatment">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#treatment"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#spiritual_well-being">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#cancer_risk">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#risk"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#diagnosed_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#bone_tumor">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#tumor"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#mir-126_-_3p">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#tumor-suppressor_ncrnas"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#mammography__">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#methods"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>like</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#brca2">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#pancreatic_ductal_adenocarcinoma"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#adenocarcinoma"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+    <taxo:relation>transitive</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#reproductive_organ_cancers">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancers"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#her2_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#gastrointestinal_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#colorectal_cancers">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#rectal_cancers"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#tumor_categories">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#categories"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#triple_negative">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#negative"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#soft_tissue_tumors">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#tumors"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#risk_factors">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#factors"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#histological_subtypes">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#leukemia">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_cancers"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#subsequent_cancer_risks"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>including</taxo:relation>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#aggressive_subtype">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#subtype"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#cancer_development">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#development"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#squamous_cell_carcinoma">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#histological_subtypes"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#aggressive_subtypes">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#subtypes"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#overexpressed">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#expressed"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#faith__">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#spiritual_well-being"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#genital_organ_cancers">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancers"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#responses">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#muscle-invasive_bladder_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#immune_traits">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#traits"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#papillary_thyroid_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#thyroid_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#luminal_b_her-2-neu_negative">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#negative"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#metastatic_breast_cancer">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#genital_organs">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#organs"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#prmt5-upregulated_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#triple-negative_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_subtypes"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_cancers"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+    <taxo:relation>including</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#adenocarcinoma__">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#histological_subtypes"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#estrogen_receptor_positive">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#positive"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#her-2">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#multiparametric_mri_methods">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#methods"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#post-diagnosis">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#diagnosis"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#luminal_b_her-2">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#her-2"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#cct6a_degradation">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#degradation"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#her2_">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#different_receptor_subtypes"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#tumor_metastasis">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#metastasis"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#mammary_tumors">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#tumors"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#pancreatic_tumors">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#tumors"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#er-negative">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_subtypes"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#negative"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#hpv16-expressing_breast_cancer_cells">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer_cells"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#poor_grade">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#grade"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#cancer">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#liver_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#clinical_breast_examination">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#methods"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>like</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#melanoma">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#pancreatic_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#lung_adenocarcinoma">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#adenocarcinoma"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#breast_nets">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#nets"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#her2_positive_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#luminal_a-like_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#malignant_tumors">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#tumors"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#other_primary_cancers__">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>including</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#expressed">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#histological_subtype">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#subtype"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#hiv-positive">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#positive"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#gastricgastroesophageal_junction_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#nets">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#thyroid">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#subsequent_cancer_risks"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#invasive_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#treatment_responses">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#responses"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#luminal_b">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer_subtypes"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#women">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#her2-low_advancedmetastatic_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#metastatic_breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#strategies">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#lymphatic_infiltration">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#infiltration"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#global_malignancy">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#malignancy"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#4t1_cells">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#breast_mucinous_carcinoma">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#mucinous_carcinoma"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#lifestyle_factors">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#factors"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#her2-overexpression">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer_subtypes"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#overexpression"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#oxaliplatin_combinations__">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_hipec_regimens"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#no2">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#primary_tumors">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#tumors"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#antitumor">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#tumor"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#triple_negative_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#lung">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#colorectal_cancers"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#rectal_cancers"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+    <taxo:relation>transitive</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#high_risk">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#risk"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#high-grade_serous_carcinoma">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#serous_carcinoma"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#pathological_features">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#features"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#pancreatic_ductal_adenocarcinoma">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#adenocarcinoma"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#her2__breast_cancer__">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_subtypes"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#genetic_variants">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#variants"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#different_subgroups">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#tumor_progression">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#progression"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#screening_methods">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#methods"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#subsequent_cancer_risks">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#extrahepatic_cancers">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancers"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#triple_negative_breast_cancer__">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#subtypes"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>like</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#early-stage_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#neuroendocrine_tumors">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#tumors"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#gene_expression">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#expression"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#soft_tissue_cancers__">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#subsequent_cancer_risks"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#black_women">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#women"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#negative">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#methods">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#germline_pathogenic">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#pathogenic"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#cancer_treatment">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#treatment"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#adenocarcinoma">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#immune_infiltration">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#infiltration"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#colon_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#colorectal_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#rectal_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#diagnosis">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#net_survival">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#survival"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#neuroendocrine_differentiation">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#differentiation"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#organs">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#albumin">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#brain_metastasis">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#metastasis"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#development">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#primary_cancers">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancers"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#hr-negative">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#negative"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#primary_treatment">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#treatment"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#differentiation">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#small-cell_lung_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#lung_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#tissues">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#her2_positive">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#positive"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#risk">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#receptor-positive_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#her2-negative_advanced_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#features">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#gynecological_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#combinatory_treatment">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#treatment"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#lobular_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#cancers">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#resistance">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#unresectable_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#lymph_node_metastasis">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#invasive_breast_carcinoma">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_carcinoma"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#progression">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#mitomycin_c">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#various_hipec_regimens"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#ihc_positivity">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#positivity"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#t-cell_activation">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#activation"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#various_hipec_regimens">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#ovarian_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#various_cancer_types">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#breast_tumor_tissues">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#tissues"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#markers">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#subtypes">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#epidermal_growth_factor_receptor">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#benign_breast_tumors">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#tumors"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#various_cancers">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#traits">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#mutation-positive">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#positive"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#effects">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#ovarian_cancers">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#cancers"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#aya_breast_cancer">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#expression_levels">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#levels"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#patient_outcomes">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#outcomes"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#subtype">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#biomarkers">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#markers"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#treatment">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#malignancy">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#histologic_grade">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#grade"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>ends_with</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#survival">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#infiltration">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#breast_cancer">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#outcomes">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#mutations">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#breast_cancer_molecular_subtypes">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#tumor-suppressor_ncrnas">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#factors">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#grade">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#breast_carcinoma">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#thyroid_cancer">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#chemotherapy">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#couples">
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#breast_cancer"/>
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+    <taxo:relation>such_as</taxo:relation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#expression">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#germline">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#rectal_cancer">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#positive">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#degradation">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#serous_carcinoma">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#cases">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#prognosis">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#levels">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#various_subtypes">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#tumors">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#adult">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#cancer_cells">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#rectal_cancers">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#overexpression">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#activation">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#milk">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#pathogenic">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#positivity">
+    <rdf:type rdf:resource="http://example.org/taxonomy#Concept"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,2228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumor">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor_Cells"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Multiple_Solid_Tumors"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Primary_Malignancies"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Stage_Ii_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Carcinogenesis"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Secondary_Malignant_Neoplasm"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor_Types"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor_Tissues"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Grade_Iii_Tumors"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Soft_Tissue_Tumors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Rectal_Cancers">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Colorectal_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Rectal_Cancers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Pancreatic">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Pancreatic_Carcinoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Ovarian_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ovarian_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ovarian"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ovarian_Serous_Cystadenocarcinoma"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Uterine_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Serous_Ovarian"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Serum_Tumor">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Metastasis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Nodal_Metastasis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Her2_">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Her2-positive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Care">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Oncology_Outreach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Estrogen_progesterone_Receptor-negative__er-_pr-__Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Hereditary_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Field"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Hereditary_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Hereditary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Nens">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Spns"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Sclerosing">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Crisis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Hr-negative">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#High-risk_Hr_"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Mesothelioma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Pleural_Malignant_Mesothelioma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Ovarian">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ovarian_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Childhood">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Children"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Uterine_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Reproductive_Cancers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Gastrointestinal_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Gastric_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Synchronous">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Risk">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Primary_Malignancies"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Positive_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Gastric_Bypass">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Gastric"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Multicentric_Disease">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Esophageal_Cancers">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Stomach_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Esophageal_Cancers"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Esophagus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Eoe">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumor_Invasion">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor_Mask"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Hormone_Receptors_Positive">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Hormone_Receptors_Positive"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Receptor-positive_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Inflammatory_Breast">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Advanced_Breast"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Dysplastic">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Neoplastic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumour_Factors">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumour_Size"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Luminal_A_Breast">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Luminal_A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Ov">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Infiltrating">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Treatment">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Oncology_Centers"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Oncology"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Sarcomas">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Sarcomas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Skeletal_Tumor">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Benign_Tumors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Grade_Iii_Tumors">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Multiple_Solid_Tumors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Locoregional_Recurrence">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Locoregional_Recurrence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Pleural_Malignant_Mesothelioma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Molecules">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Digestive_Cancers">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Extrahepatic_Cancers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Mri">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Tissue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cervix">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cervical_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cervix"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lymph_Node_Metastasis-related">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Paired_Metastatic_Lymph_Nodes"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lymph_Node_Metastasis-related"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Metastasis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Endocrine_Malignancy">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ovarian_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Bcs">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bcss"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumor_Cells">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Glioblastoma"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Type_Ii">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Prostate_Cancers">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bladder"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Renal_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Prostate_Cancers"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Adenocarcinomas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Recurrence_Risk">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Recurrence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Small">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Mesenchymal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cn3b_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Dcis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Focal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Gbm">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Llnm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Squamous">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Cancer_Tissue">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor_Invasion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Renal_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Renal_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bladder_Urothelial_Carcinoma"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cell_Renal_Cell_Carcinoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Adipose_Tissue">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Local_Recurrence">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Distance_Recurrence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Fibroadenomas">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Colorectal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Endometrial_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Endometrial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Partial">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Bladder_Urothelial_Carcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bladder"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Renal_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bladder_Urothelial_Carcinoma"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bladder_Cancers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cw">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tpc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Reproductive_Cancers">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ovarian_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Gynecologic_Malignancies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Dlbcl">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Oncology_Centers">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Mpbc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tnbc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cystic_Tumor">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Unresectable">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Refractory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Paad">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Diffuse">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Diffuse_Gastric"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Iv_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Luminal_A_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Intramuscular">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cervical_Precancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Bilateral">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#4t1_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Her2-negative_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#In_Situ">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#In_Situ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Nets">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Genome">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor_Types"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Spns">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Metastatic_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastatic"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lung_Metastasis"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Her2-low_Metastatic_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Diffuse_Gastric">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Her2-low_Metastatic_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Her2-low_Metastatic_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Her2-positive"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Her2-negative_Advanced_Breast"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cdc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Retroperitoneal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Fap">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Stromal_Myofibroblasts">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumoural_Stroma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Crc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Peritoneum">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Retroperitoneal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Hnscc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumor_Types">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Prame__Tumors"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor_Sites"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Serum_Tumor"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Study"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lung_Metastatic_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lung_Metastasis"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Non-small_Cell_Lung_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Bovine_Leukemia_Virus">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumors">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Soft_Tissue_Tumors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Primary_Malignancies">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Multiple_Solid_Tumors"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Primary_Malignancies"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Carcinomas"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Multiple_Malignancies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Melanoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Neoplastic"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cutaneous_Melanoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Antimetastasis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Brca">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Serous_Ovarian">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Gynecologic_Malignancies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Metastasis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastasis"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastatic"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Brain_Metastases"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Nodal_Metastasis"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ocular_Metastasis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Hilar">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Alnm">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Genital_Organs">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Hematological_Malignancies">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Malignancy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lung_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Non-small_Cell_Lung_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lung_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Papillary_Thyroid_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Thyroid_Cancers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Cancer_Surgery">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Advanced-stage_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#High-grade_Cancers">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Digestive_Cancers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lung_Adenocarcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lung_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lymph_Nodes">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Nsclc___24">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Nsclc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Cancer_Group">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Recurrence">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Recurrence"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Systemic_Recurrence"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Distance_Recurrence"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastatic_Recurrence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Acoustic">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Thyroid">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Papillary_Thyroid_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Familial_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Tumor_Recurrence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Oncology_Cuas">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Oncology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Knowledge_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Behavior"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Neoplastic">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Secondary_Malignant_Neoplasm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Neuroendocrine_Carcinomas">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Neuroendocrine_Breast_Neoplasm"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Neuroendocrine_Carcinomas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Relapsing_refractory_Glioblastoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Glioblastoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Luminal_A">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Luminal_A"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Luminal_B_Pattern"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Secondary">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Secondary_Outcomes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Intestine">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Intestinal_Adenoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Nodal_Metastasis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastasis"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bone_Metastasis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Extrapulmonary">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cell_Renal_Cell_Carcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Renal_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Secondary_Malignant_Neoplasm">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Neoplastic"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Multiple_Malignancies"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Secondary_Malignant_Neoplasm"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Dural_Metastasis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Epithelial">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Rcc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cvc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Men">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Serous_Ovarian_Carcinomas">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Serous_Tubal_Intraepithelial_Carcinoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cvc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Crc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Diagnosis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Burden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Metastatic_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastatic_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Cells"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastatic_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumour_Groups">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Family"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Nsclc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Nsclc___24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Advanced_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Stage_Ii_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Locally_Advanced"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Family">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Her2-low">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Her2-low_Metastatic_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Her2_"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Cell_Lines">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Cells"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Neuroendocrine">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Neuroendocrine_Differentiation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Gene_Expression_Profiles">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Digestive">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Hepatocellular_Carcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Extrahepatic_Cancers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Carcinomas">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Childhood_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Squamous_Cell_Carcinomas"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Cell">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Squamous_Cell_Carcinomas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Pc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tpc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Cases">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lbc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Dtc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lbc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Endometrial">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Endometrial"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Endometrial_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Prospective_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Rural_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Cancer_Tumors">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Carcinoma"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Tumors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Metastatic_Recurrence">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Recurrence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Epithelial-mesenchymal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Epithelial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Llnm">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Dm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Bc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Gastric">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#International_Gastric_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Advances">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumor_Sites">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Oncology"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Cells"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Disparate_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#High-risk_Breast"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Glioblastoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Relapsing_refractory_Glioblastoma"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Paraganglioma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Colorectal_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Colorectal"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Colorectal_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Rectal_Cancers"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastatic_Pc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Early-stage_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Mammary_Carcinogenesis"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Tumors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Ln">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lns"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Carcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Infiltrating_Ductal_Carcinoma"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Early-stage_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lung">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Non-invasive">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Invasive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Low-grade">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Low-grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Advanced_Breast">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Disease"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Mri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Bone_Metastasis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastasis"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastatic"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Brain_Metastases"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Dural_Metastasis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lobular_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Systemic_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Mammary_Tumors"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Group"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Risk"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Survivors"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Non-palpable_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Mouse_Model"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Tumor_Recurrence"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Missouri_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Prospective_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Brain_Metastases">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastasis"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastatic_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Brain_Metastases"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cystic_Brain_Metastases"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Her2-negative_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Her2-low_Metastatic_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Her2-positive"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Her2-low"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Brain_Lower_Grade_Glioma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Glioblastoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lynch_Syndrome">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Metastatic_Bc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bone_Metastasis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Stage_Iii_Melanoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Melanoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Synchronous_Malignancies">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Malignancy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Om">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Metachronous">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Brain">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Extracranial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Soft_Tissue_Tumors">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumour_Size"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cystic_Tumor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Invasive">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cardiovascular_Deaths">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cardiovascular"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cardiovascular_Deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Skin_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Melanoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Ask_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Resistance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lung_Metastasis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastatic"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lung_Metastasis"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lung_Metastatic_Sites"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Secondary_Malignant_Neoplasm"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lung_Metastatic_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Tissue">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Hcc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Metastatic_Pc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastatic_Bc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cscs">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cartilage">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Carcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Skin_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Hematological">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Haematologic"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Hematological_Malignancies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Report">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Total_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Bcsc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Invasive_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Invasive"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Infiltrating_Ductal_Carcinoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Public_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Spinal_Cord">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Deaths">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Family"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Worry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Kidney_Chromophobe">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Total_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Combat_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Aggressive_Tumor">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Malignancy"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Invasive_Breast_Carcinoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Gastrointestinal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Digestive_System"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Mpmns">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Unresectable_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Unresectable_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Tumor_Recurrence">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Benign_Tumors"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_History"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Upper_Gi_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Renal_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Mc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Mc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Idc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Nsclc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Ovarian_Tumors">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ovarian_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Mammary_Tumors">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Bcbm">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Fbm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#International_Gastric_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Diffuse_Gastric"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#International_Gastric_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Pituitary_Adenylate">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cell_Growth">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Virus-related">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Nf1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Mbc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bcsc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Escc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Data">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor_Types"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Luminal_B_Pattern">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Luminal_A"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Luminal_B_Pattern"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Mesenchymal_Tumors">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Mesenchymal"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Mesenchymal_Tumors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Secondary_Revision">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Risk_Syndromes">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Masses">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Children">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Osteoclasts">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Hematopoietic_Transplant_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Hematological_Malignancies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Abc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Bm">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Gbm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Al">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Alnm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lung_Squamous_Cell_Carcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lung_Metastatic_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Cancer_Cells">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lobular_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Triple-negative_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Cell_Lines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Relapsed">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Intestines">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Digestive"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Intestines"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Gastrointestinal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Urogenital">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Prostate_Cancers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Advance">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Progression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Esophagus">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cardiovascular">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Multiple_Malignancies">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Primary_Malignancies"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Secondary_Malignant_Neoplasm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Mem">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Nom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Dm">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#M2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Genital_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Primary_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Her2-negative_Advanced_Breast">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Her2-low_Metastatic_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Her2-low"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Her2-negative_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Necs">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Infiltrating_Ductal_Carcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Infiltrating_Ductal_Carcinoma"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Invasive_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Pancreatic_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Pancreatic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Progression">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lymphoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Diffuse_Large_B_Cell_Lymphoma"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lymphoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Malignant_Transformation">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Adenocarcinomas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Haematologic">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Hematological"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Rtc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ilc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Basal-like_Subtype">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Basal-like"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Benign_Tumors">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor_Types"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Benign_Tumors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Micrometastasis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Antimetastasis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Plc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Ocular_Metastasis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Brain_Metastases"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ocular_Metastasis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Digestive_System">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Stomach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Contiguous">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumorigenesis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastasis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Burden">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Treatment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumor_Subtype">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Vital_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lung_Metastatic_Sites">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lung"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Liver">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Digestive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumour_Size">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumour_Factors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Ninety-four_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Hereditary_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Up">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor_Types"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Pheochromocytoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Oncology_Outreach">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Treatment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumoural_Stroma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Stromal_Myofibroblasts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Adult">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Adult"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Clusters">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Care"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tall_Cell_Carcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Neuroendocrine_Carcinomas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Small_Cell_Carcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Non-small_Cell_Lung_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Multiple_Myeloma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Multiple_Solid_Tumors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Cancer_Prevention">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Familial_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Gallbladder">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumor_Syndromes">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumorigenesis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Locally_Advanced">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Deaths"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Cases"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Leukemia"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Cells"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Malignancy">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Hematological_Malignancies"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Synchronous_Malignancies"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Malignancy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Non-metastatic_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ninety-four_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Liver_Metastasis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cell_Mobility">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cell_Growth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Metastatic">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastasis"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastatic_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Non-palpable_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Premenopausal_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastatic_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cyprus_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumour_Groups"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Secondary_Outcomes">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Secondary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Fallopian_Tubes">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Luminal_A_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Luminal_A_Breast"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Luminal_A_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Missouri_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Luminal_A_Breast"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Er-negative">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Colon">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Digestive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Neurological">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Brain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Atypical">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Adenocarcinomas">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastasis"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Prostate_Cancers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Hr-negative_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Hr-negative"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Disease">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#High-risk_Breast"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Recurrence_Groups">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Recurrence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Cancer_Survivors">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Anal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Prad">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Paad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Pro">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Childhood_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cervical_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Advanced_Solid">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Nom">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tnbc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tnbc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Vital_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Cells"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Oncology">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Care"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Oncology"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Extracranial">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Disseminated">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#High-risk_Breast">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Advanced-stage_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Advanced_Breast"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Cancer_Gene">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lobular_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Treatment-associated_Hair_Loss">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Pne">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Prad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Crc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lbc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Hereditary">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Micropolitan_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Liver_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Renal_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Hepatocellular_Carcinoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Hboc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Dtc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Progression">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Progression"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Progression"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ask_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Extrathyroidal_Extension">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Multiple_Solid_Tumors">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Skeletal_Tumor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Male_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Desmoid">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Positive_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Prevention"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Liver_Hepatocellular_Carcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Hepatobiliary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Involvement">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Stage_I-iii_Breast">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Triple-negative_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lihc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumour_Volume">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumour_Size"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Stage_Ii_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Treatment"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor_Growth"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Advanced_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Early_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Non-metastatic_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumor_Growth">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cell_Growth"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Broad_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#High-grade_Cancers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Stomach">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Intestines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumor_Tissues">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Multiple_Solid_Tumors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Oc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ov"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Spreading">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Dci">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Dcis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cutaneous_Melanoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Histological_Type">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumor_Mask">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Worry">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Combat_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Receptor-positive_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Hormone_Receptors_Positive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Oncology_Nurses">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Oncology_Centers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Left-sided_Invasive_Breast_Carcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Iv_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Surgery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lgg">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ln"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Brca-associated_Breast">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Brca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Pdac">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Bladder_Cancers">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bladder_Urothelial_Carcinoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lobular_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Locally_Advanced_G_gej_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Localized">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Locally_Advanced"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Invasion">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Invasive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Stomach_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Nasopharyngeal_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Bladder">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Ipsilateral">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Fbm">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Squamous_Cell_Carcinomas">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Primary_Malignancies"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Cells"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Neoplasms">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Melanoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Triple_Negative">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Triple-negative_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Nonmalignant">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Mesenchymal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Cancer_Field">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Public_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Oral_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Risk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Luminal_Tumours">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Luminal_A_Breast"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Apc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Cells">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Cell_Lines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Cancer_Mouse_Model">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Carcinoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Sclc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Blca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Adenocarcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Vital_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Paraganglioma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Glioblastoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Neuroendocrine_Breast_Neoplasm">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Estrogen_progesterone_Receptor-negative__er-_pr-__Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Neuroendocrine_Breast_Neoplasm"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Neuroendocrine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Advanced-stage_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Invasive_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Knowledge_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Ugi">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Ilc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ptc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Post-radiotherapy">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Immunophenotype">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Carolina_Breast_Cancer_Study">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cn3b_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cervical_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cervical"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Recurrent">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Systemic_Recurrence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Primary_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lobular_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Carcinomas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Basal-like">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Cohort">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Genome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Mtt">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Hgsc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Crc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Extrahepatic_Cancers">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Cancer_Association">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#High-risk">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Risk_Syndromes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Oncogenes">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Gc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Dtc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Nmsc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Cancer_Behavior">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Non-metastatic_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Caya_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Systemic_Recurrence">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Recurrence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Leiomyosarcoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Sarcomas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Functioning">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Pancreatic_Tumor_Cohorts">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Pancreatic_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Mammary_Carcinogenesis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Cancer_History">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Neuroendocrine_Differentiation">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Neuroendocrine_Carcinomas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Castration-resistant_Pc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Brm">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Brca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Early-stage">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Thyroid_Cancers">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Papillary_Thyroid_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Thyroid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Rb1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Esca">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Brca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Meso">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Triple-negative_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cn3b_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Triple-negative_Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Estrogen_progesterone_Receptor-negative__er-_pr-__Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Triple_Negative"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastatic_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cin">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ln"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Metastatic_Disease">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Colorectal_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Stic">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Systemic_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Primary_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Residual">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Intestinal_Polyps">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Intestinal_Adenoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Expression_Profile">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Gene_Expression_Profiles"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Sigmoid_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Pts">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Dural_Metastasis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastasis"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bone_Metastasis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Scc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ccrcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Metastases">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastasis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Invasive_Breast_Carcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Ccrcc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cscs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#T1a-b_Cancers">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Osteosarcoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Osteoclasts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Pan-cancers">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Pancreatic_Carcinoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Pv">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Gynecologic_Malignancies">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ovarian_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ovarian_Tumors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Pancreatic_Carcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Pancreatic"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Pancreatic_Carcinoma"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Pan-cancers"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Pancreatic_Tumor_Cohorts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Prame__Tumors">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Multiple_Solid_Tumors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Nasopharyngeal_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Sites">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor_Sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Benign">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Benign"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Colo-rectal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Colo-rectal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Nodular">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Combat_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Carcinomas"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer_Diagnosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Serous_Tubal_Intraepithelial_Carcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Lns">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ln"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Bcm">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bcs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Her2-positive">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Her2-negative_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Secondary_Endpoint">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Minimally_Invasive">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Non-invasive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Leukemia">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Hematological_Malignancies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Dr">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Aya_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Database"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Gastric_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Intestinal_Adenoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Hepatobiliary">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Ptc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Gc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Solitary_Pulmonary_Nodules">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Nodular"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Rural_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Disparate_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Ovarian_Serous_Cystadenocarcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ovarian_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Malignant_Tumor">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Syndromes">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Risk_Syndromes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Anal_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Ovarian_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Blca">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cervical">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cervical_Precancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tumor_Vascularization">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Angiogenesis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Plasmacytoid">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#M2">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Tuvan_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Pituitary_Gland">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Pituitary_Adenylate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Triple-negative">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Triple_Negative"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Therapy-associated_Alopecia">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Treatment-associated_Hair_Loss"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Study">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Bcss">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bcsc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Breast_Cancer_Database">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lobular_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#4t1_Tumor_Cells">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Tumor_Sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Bilateral_Breast_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Early_Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Bca">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bcm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Diffuse_Large_B_Cell_Lymphoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Intestinal_Adenoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Non-small_Cell_Lung_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lung_Squamous_Cell_Carcinoma"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lung_Adenocarcinoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Head_And_Neck">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Ec">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Gastrointestinal_Microbiota">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Metastasesemerge">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastasis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Angiogenesis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Distance_Recurrence">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Recurrence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cancer_Resistance">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer_Cells"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Carcinogenesis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Stage_Ii_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Fatty">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Residual_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Residual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Refractory">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Undifferentiated_State">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#High-risk_Hr_">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Pancreatic_Adenocarcinoma">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Pancreatic_Carcinoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Differentiation">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Cystic_Brain_Metastases">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Bone_Metastasis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Liver_Metastasis">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Metastatic_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Levine_Cancer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Breast_Cancer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Mibc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Mpbc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomy#Paired_Metastatic_Lymph_Nodes">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/taxonomy#Lymph_Nodes"/>
+  </rdf:Description>
+</rdf:RDF>
